@@ -249,6 +249,12 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
+.about__icon {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  color: var(--second-color);
+  vertical-align: -0.1em;
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -290,20 +296,39 @@ img {
   border-radius: 0.5rem;
   z-index: var(--z-back);
 }
-.skills__html {
-  width: 95%;
+.skills__python {
+  width: 100%;
 }
-.skills__css {
-  width: 85%;
+.skills__pytorch {
+  width: 100%;
 }
-.skills__js {
-  width: 65%;
+.skills__cpp {
+  width: 90%;
 }
-.skills__ux {
-  width: 85%;
+.skills__git {
+  width: 80%;
+}
+.skills__docker {
+  width: 70%;
+}
+.skills__bash {
+  width: 70%;
+}
+.skills__tensorflow {
+  width: 60%;
+}
+.skills__jax {
+  width: 60%;
+}
+.skills__matlab {
+  width: 50%;
+}
+.skills__mathematica {
+  width: 50%;
 }
 .skills__img {
   border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 /* ===== WORK =====*/
